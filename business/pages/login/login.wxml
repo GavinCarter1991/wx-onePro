@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view style="width: {{imageWidth}}px; height: {{imageHeight}}px;" class="login-log">
+    <image style="width: {{imageWidth}}px; height: {{imageHeight}}px;" src="../images/loginLog.png"></image>
+  </view>
+  <view style="width: {{inputViewWidth}}px; height: {{inputHeight}}px;" class="inputBg">
+    <view style="width: {{inputViewWidth}}px; height: {{inputViewHeight}}px;" class="inputView">
+      <image class="nameImage" src="../images/name.png"></image>
+      <label class = "loginLab">账号</label>
+      <input class="inputText" placeholder="请输入手机号码" bindinput="phoneInput"/>
+    </view>
+    <view class="line"></view>
+    <view style="width: {{inputViewWidth}}px; height: {{inputViewHeight}}px;" class="inputView">
+      <image class="keyImage" src="../images/key.png"></image>
+      <label class = "loginLab">密码</label>
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput"/>
+    </view>
+  </view>
+  <view class="loginBtnView">
+    <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="login">登录</button>
+        <label class="explain">如果忘记密码,请联系客服修改</label>
+        <label class="explain marginTop10">客服电话,
+        <text class="call" bindtap="call">028-86051215</text>
+        </label>
+  </view>
+</view>

@@ -1,0 +1,140 @@
+/*coommon*/
+page{
+    background-color:#f2f2f2;
+}
+
+.dispalyFlex {
+    display: flex;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.height35 {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.height44 {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+}
+
+.font-size12 {
+    font-size: 12px;
+}
+
+.font-size14 {
+    font-size: 14px;
+}
+
+.magrgin-top10 {
+    margin-top: 10px;
+}
+
+.margin-left12 {
+    margin-left: 12px;
+}
+
+.margin-right12 {
+    margin-right: 12px;
+}
+
+.normalColor {
+    color: #545454;
+}
+
+/*diff*/
+.container {
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+}
+
+.view1 {
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white
+}
+
+.moneyImge {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-top: 30px
+}
+
+.balance {
+    color: #999999;
+}
+
+.balanceShow {
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline
+}
+
+.balanceValue {
+    font-size: 30px;
+}
+
+.yuan {
+    color: #444444;
+    margin-left: 2px;
+    margin-bottom: 30px
+}
+
+.view2 {
+    width: 100%;
+    background-color: white;
+}
+
+.lineSpace {
+    width: 100%;
+    height: 1px;
+    background-color:#e0e0e0;
+    margin-top: -1px;
+}
+
+.tixianImage {
+    width: 14px;
+    height: 13px;
+}
+
+.tixianNote {
+    margin-left: 5px;
+}
+
+.bankCard {
+    color: #6597ba;
+}
+
+.allDeposit {
+    color: #2cc39a;
+}
+
+.view3 {
+    width: 100%;
+}
+
+.depositBtn {
+    width: 80%;
+    height: 40px;
+    color: white;
+    margin-top: 25px;
+}
+
+.showDeatailBtn {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #cccccc;
+}

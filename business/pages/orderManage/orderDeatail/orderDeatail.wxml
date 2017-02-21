@@ -1,0 +1,42 @@
+<!--pages/orderManage/orderDeatail.wxml-->
+
+<view class="container marginTop10">    
+    <view class="flexItem rowStyle tableViewCellHeader heightAndWidth">
+        <image class="orderImage marginLeft12" src="../../images/dingdan.png"></image>
+        <label class="color54 fontSize12">订单编号: {{ orderNum }}-1</label>
+    </view>
+
+    <view class="flexItem rowStyle personInfo">
+        <view class="flexItem rowStyle marginLeft12 centers">
+            <image class="userHeader" src="{{ url }}"></image>
+            <label class="color54 fontSize12">{{ nickName }}</label>
+        </view>
+
+        <view class="flexItem rowStyle marginRight12 centers" catchtap="callEvent">
+            <image class="call" src="../../images/call.png"></image>
+            <label class="color54 fontSize12">{{ phoneNum }}</label>
+        </view>
+    </view>
+
+    <view class=" heightAndWidth flexItem columnStyle tableViewCell">
+        <view class="flexItem rowStyle marginBottom10 cellStyle marginRight12 marginLeft12">
+            <label class="color54 fontSize12">预约时间</label>
+            <label class="fontSize14">{{ appointmentTime }}</label>
+        </view>
+
+        <view class="flexItem rowStyle marginBottom10 cellStyle marginRight12 marginLeft12">
+            <label class="color54 fontSize12">预约人数</label>
+            <label class="color54 fontSize12">{{ appointmentNum }} 人</label>
+        </view>
+
+        <view class="flexItem rowStyle marginBottom10 cellStyle marginRight12 marginLeft12">
+            <label class="color54 fontSize12">下单时间</label>
+            <label class="color54 fontSize12">{{ orderTime }}</label>
+        </view>
+    </view>
+
+    <view class="flexItem rowStyle centers orderStatus">
+        <image class="statusImage" src="{{ statusImage[0] }}"></image>
+        <label class="statusText fontSize14">{{ statusText[0] }}</label>
+    </view>
+</view>

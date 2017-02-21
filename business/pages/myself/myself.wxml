@@ -1,0 +1,44 @@
+<view class="container">
+    <view class="myHeader">
+        <view class="topSet">
+            <image class="callImage" src="../images/kefu.png" bindtap="callKeHu"></image>
+            <label class="settingLabel"  bindtap="setEvent">设置</label>
+        </view>
+        <image class="portr" src="../images/people_r.png"></image>
+        <text class="nickName">恋人心恋人心恋人心恋人心</text>
+        <image class="aixin" src="../images/aixin.png"></image>
+        <text class="welfare_val">公益值 168</text>
+    </view>
+
+
+
+    <dl class="menu  {{ isHidden===true ? hide:noHid }} ">
+        <dd>
+            <ul>
+                <li bindtap="modifyPassword">修改秘密</li>
+                <li bindtap="directionsForUse">使用说明</li>
+                <li bindtap="feedBack">反馈意见</li>
+                <li bindtap="loginOut">退出登录</li>
+            </ul>
+        </dd>
+    </dl>
+
+    <scroll-view class="myLists" scroll-y="{{true}}" wx:if="{{hasData}}">
+        <view class="cell" wx:for="{{ money }}" wx:for-item="info" bindtap="showMoney">
+            <image class="cellImage" src="{{ info.url }}"></image>
+            <text class="cellTitle" data-source="{{ infor }}">{{ info.title }}</text>
+            <image class="cellIndicator" src="{{ info.indicator }}"></image>
+            <text class="cellContent">{{ info.content }}</text>
+            <label class="lineSpace"></label>
+        </view>
+    </scroll-view>
+
+     <scroll-view class="myLists" scroll-y="{{true}}" wx:if="{{hasData}}">
+        <view class="cell" wx:for="{{ myInfro }}" wx:for-item="info">
+            <image class="cellImage" src="{{ info.url }}"></image>
+            <text class="cellTitle" data-source="{{ infor }}">{{ info.title }}</text>
+            <text class="cellContent">{{ info.content }}</text>
+            <label class="lineSpace"></label>
+        </view>
+    </scroll-view>
+</view>

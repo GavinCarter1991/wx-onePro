@@ -1,0 +1,7 @@
+<!--pages/myself/myMoney/feedBack.wxml-->
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea class="inputText" placeholder-style="font-size: 14px; color:#ccc" placeholder="请将你的宝贵意见和建议都告诉我们把！" name="textarea"/>
+    <button class="commitBtn" type="primary" form-type="submit"> 提交 </button>
+  </form>
+</view>

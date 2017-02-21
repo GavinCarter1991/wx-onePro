@@ -1,0 +1,144 @@
+/*commomStyle*/
+page{
+    background-color:#f2f2f2;
+}
+
+.blockItem {
+    display: block;
+}
+
+.flexItem {
+    display: flex;
+}
+
+.color54 {
+    color: #545454;
+}
+
+.color999 {
+    color: #999;
+}
+
+.fontSize10 {
+    font-size: 10px;
+}
+
+.fontSize12 {
+    font-size: 12px;
+}
+
+.fontSize14 {
+    font-size: 14px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginTop15 {
+    margin-top: 15px;
+}
+
+.marginTop6 {
+    margin-top: 6px;
+}
+
+.marginBottom15 {
+    margin-bottom: 15px;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+
+.marginLeft12 {
+    margin-left: 12px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.columnStyle {
+    flex-direction: column;
+}
+
+.rowStyle {
+    flex-direction: row;
+}
+
+.heightAndWidth {
+    height: auto;
+    width: 100%;
+}
+
+.centers {
+    justify-content: center;
+    align-items: center;
+}
+
+/*diffStyle*/
+.container {
+    padding: 0;
+    height: 100%;
+}
+
+.totalIncome {
+    background-color: white;
+}
+
+.totalIncomeNote {
+    margin-top: 28px;
+}
+
+.totalIncomeValue {
+    margin-bottom: 28px;
+    font-size: 20px;
+    color: #ed7321;
+}
+
+.composeIncome {
+    background-color: #ebebeb;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lineView {
+    height: 40px;
+    width: 1px;
+    background-color: #ccc;
+}
+.tableViewCellHeader {
+    height: 35px;
+    align-items: center;
+    border-bottom: solid #ccc 1px;
+    background-color: white;
+}
+
+.orderImage {
+    width: 10px;
+    height: 11px;
+    margin-right: 5px;
+}
+
+.tableViewCell {
+    padding-right: 12px;
+    padding-top: 15px;
+    padding-left: 12px;
+    background-color: white;
+}
+
+tableViewCellStyle {
+    background-color: white;
+}
+
+.cellStyle {
+    justify-content: space-between;
+    align-items: center;
+    color: #ed7321;
+}
+
